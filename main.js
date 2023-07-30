@@ -1,5 +1,8 @@
 let toggleIcon = document.getElementById("toggle-icon")
 let navLinks = document.getElementById("nav-link")
+let username = document.getElementById("name")
+let email = document.getElementById("email")
+let message = document.getElementById("message")
 if(innerWidth >= 1024){
     navLinks.style.display = 'flex'
 }else{

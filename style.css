@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -576,6 +577,8 @@ section div .contain-image .circle-spin{
     
     .about{
         width: 100%;
+        align-items: center;
+        justify-content: center;
     }
     .contactSection .inputs div input,
     .contactSection .inputs div textarea{
@@ -593,5 +596,27 @@ section div .contain-image .circle-spin{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    .card{
+        width: 50%;
+    }
+    .container1{
+        justify-content: left;
+    }
+    .firstSection{
+        padding: 0;
+    }
+    .socialIcons{
+        padding-right: 5em;
+        padding-left: 50px;
+    }
+    header .container1 nav ul{
+        margin-left: 0;
+    }
+    .fa-list{
+        margin-left: 150px;
+    }
+    #main h1 a{
+        margin-left: 30px;
     }
 }
